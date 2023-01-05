@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three_Tier_App", "Three_Tier_App.csproj", "{3B4386D4-BA7A-47DA-B434-6B2F8114B0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B4386D4-BA7A-47DA-B434-6B2F8114B0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4386D4-BA7A-47DA-B434-6B2F8114B0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4386D4-BA7A-47DA-B434-6B2F8114B0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4386D4-BA7A-47DA-B434-6B2F8114B0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61589330-EE4D-4AFA-929F-6A58DDD4D700}
+	EndGlobalSection
+EndGlobal

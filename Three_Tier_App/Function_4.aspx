@@ -14,7 +14,7 @@
     <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="Country" DataValueField="Country">
     </asp:DropDownList>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:M11105506ConnectionString %>" SelectCommand="SELECT distinct Country FROM site_info"></asp:SqlDataSource>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource3" Width="500px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource3" Width="500px" AllowPaging="True">
         <Columns>
             <asp:BoundField DataField="list" HeaderText="list" SortExpression="list" />
             <asp:BoundField DataField="country" HeaderText="country" SortExpression="country" />

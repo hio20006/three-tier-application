@@ -10,7 +10,7 @@
     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Manufacturer" DataValueField="Manufacturer">
     </asp:DropDownList>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:M11105506ConnectionString %>" SelectCommand="SELECT DISTINCT Manufacturer FROM system_info"></asp:SqlDataSource>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="List,SystemID" DataSourceID="SqlDataSource2" Width="1000px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="List,SystemID" DataSourceID="SqlDataSource2" Width="1000px" AllowPaging="True">
         <Columns>
             <asp:BoundField DataField="List" HeaderText="List" ReadOnly="True" SortExpression="List" />
             <asp:BoundField DataField="SystemID" HeaderText="SystemID" ReadOnly="True" SortExpression="SystemID" />

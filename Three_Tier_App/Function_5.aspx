@@ -22,7 +22,7 @@
     <asp:DropDownList ID="DropDownList3" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource3" DataTextField="list" DataValueField="list">
     </asp:DropDownList>
     <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:M11105506ConnectionString %>" SelectCommand="select distinct  list from list order by list"></asp:SqlDataSource>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" Width="500px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" Width="500px" AllowPaging="True">
         <Columns>
             <asp:BoundField DataField="List" HeaderText="List" SortExpression="List" />
             <asp:BoundField DataField="SystemID" HeaderText="SystemID" SortExpression="SystemID" />
